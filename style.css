@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#home{
+/*css for full size background image*/
+  background: url(http://wall-papers.info/images/hd-tech-wallpaper/hd-tech-wallpaper-11.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  height: 100%;
+  width:100%;
+  background-color: #171717; 
+}
+#Enter-Site{
+  position:absolute;
+  bottom:5%;
+  left:50%;
+  transform:translateX(-50%);
+}
+.navbar-inverse, #Enter-Site{
+  background-color:rgba(0,0,0,0.5);
+}
+
+#about{
+  background-color:#171717;
+  color:#fff;
+  padding:30px;
+}
+#about #about-icon:hover{
+  color:rgb(226, 80, 65);
+}
+
+#features{
+  background-color:rgb(226, 80, 65);
+  color:#fff;
+  padding:30px;
+}
+#features .col-sm-3{
+  padding:10px;
+}
+#features .fa{
+  font-size:8em;
+}
+#features .fa:hover{
+  color:#171717;
+  cursor:pointer;
+}
+#features p{
+  font-size:0.5em;
+}
+#features .btn:hover{
+  background-color:#171717;
+  color:#fff;
+}
+
+
+#slider{
+  width:100%;
+  background-color:#000;
+}
+
+.carousel-inner > .item > img {
+  width:70%;
+  margin: auto;
+}
+
+footer{
+  background-color:#171717;
+  padding:10px;
+  color:#777;
+}
+footer:hover{
+  color:#aaa;
+}
